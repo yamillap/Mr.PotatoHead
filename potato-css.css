@@ -1,0 +1,36 @@
+#capture {
+    align-items: center;
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+button {
+    margin: 0;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    margin: 2em;
+    }
+
+.parts {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

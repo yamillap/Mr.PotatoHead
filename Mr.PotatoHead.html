@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=" classth=device- classth, initial-scale=1.0">
+    <link rel="stylesheet" href="lab05.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="lab05.js"></script>
+    
+    <title>Lab05</title>
+    <h1 style="text-align:center; font-family: 'Times New Roman', Times, serif;">Mr. Potato Head</h1>
+</head>
+
+<body>
+    <p style="text-align: center; font-family:'Times New Roman', Times, serif; font-size: medium;">Drag the parts into
+        the
+        box!</p>
+    <div class="block">
+        <div>
+            
+            <div id="capture">
+                <div class="parts" id="parts">
+                    <img src="Body.png" class="draggable">
+                    <div>
+                        <img src="Arms.png" class="draggable">
+                        <img src="Ears.png" class="draggable">
+                        <img src="Eyes.png" class="draggable">
+                        <img src="Hat.png" class="draggable">
+                        <img src="Mouth.png" class="draggable">
+                        <img src="Mustache.png" class="draggable">
+                        <img src="Nose.png" class="draggable">
+                        <img src="Shoes.png" class="draggable">
+                    </div>
+                </div>  
+            </div>
+            <div id="imgBox">
+                <button id="exit" >Exit</button>
+            </div>
+            <button onclick="PDF()">Download</button> 
+        </div>
+    </div>
+</body>
+</html>
